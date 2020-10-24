@@ -135,6 +135,16 @@ img {
   -ms-transform: skewY(-3deg);
 }
 
+/* Stats */
+.stats {
+  padding-top: 200px;
+}
+
+.stats .grid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
 /* Utilities */
 .container {
   max-width: 1216px;
