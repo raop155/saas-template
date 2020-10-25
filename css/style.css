@@ -202,6 +202,34 @@ img {
   margin-bottom: 10px;
 }
 
+/* Features */
+.features-head .grid,
+.features-subhead .grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.features-head img {
+  width: 200px;
+  justify-self: flex-end;
+  margin-right: 50px;
+}
+
+.features-subhead img {
+  width: 300px;
+  justify-self: flex-end;
+  margin-right: 50px;
+}
+
+.features-main .card > i {
+  margin-right: 20px;
+}
+
+.features-main .grid {
+  padding: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
 /* Footer */
 .footer a {
   color: #fff;
