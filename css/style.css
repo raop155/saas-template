@@ -59,6 +59,11 @@ pre {
   padding: 1rem;
 }
 
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+
 /* Navbar */
 .navbar {
   background: var(--primary-color);
