@@ -22,7 +22,7 @@
 } */
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: sans-serif;
   color: #333;
   line-height: 1.6;
 }
@@ -93,10 +93,6 @@ pre {
   z-index: -1;
 }
 
-.showcase h1 {
-  font-size: 40px;
-}
-
 .showcase p {
   margin: 20px 0;
 }
@@ -107,6 +103,10 @@ pre {
   gap: 30px;
 }
 
+.showcase-text {
+  animation: slideFromLeft 500ms ease-out;
+}
+
 .showcase-form {
   position: relative;
   top: 60px;
@@ -115,6 +115,7 @@ pre {
   padding: 40px;
   z-index: 100;
   justify-self: flex-end;
+  animation: slideFromRight 500ms ease-out;
 }
 
 .showcase-form .form-control {
@@ -152,6 +153,7 @@ pre {
 /* Stats */
 .stats {
   padding-top: 100px;
+  animation: slideFromBottom 500ms ease-out;
 }
 
 .stats .grid {
@@ -174,6 +176,10 @@ pre {
 }
 
 /* CLI */
+
+.cli {
+  animation: slideFromBottom 500ms ease-out;
+}
 
 .cli .grid {
   grid-template-columns: repeat(3, 1fr);
@@ -213,6 +219,10 @@ pre {
 }
 
 /* Features */
+.features-head {
+  /* height: 400px; */
+}
+
 .features-head .grid,
 .features-subhead .grid {
   grid-template-columns: repeat(2, 1fr);
