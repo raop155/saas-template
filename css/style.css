@@ -201,3 +201,16 @@ img {
   font-size: 20px;
   margin-bottom: 10px;
 }
+
+/* Footer */
+.footer a {
+  color: #fff;
+}
+
+.footer .social a {
+  margin: 0 10px;
+}
+
+footer .grid {
+  grid-template-columns: repeat(3, 1fr);
+}
